@@ -1,0 +1,9 @@
+fastapi==0.112.2
+pydantic==2.8.2
+asyncpg==0.29.0
+SQLAlchemy==1.4.31
+uvicorn==0.24.0
+alembic==1.12.1
+psycopg==3.2.1
+requests
+aiohttp
