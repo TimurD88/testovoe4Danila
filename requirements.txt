@@ -4,6 +4,6 @@ asyncpg==0.29.0
 SQLAlchemy==1.4.31
 uvicorn==0.24.0
 alembic==1.12.1
-psycopg==3.2.1
+psycopg2==2.9.9
 requests
 aiohttp
