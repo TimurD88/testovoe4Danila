@@ -40,8 +40,8 @@ async def make_client_request(tickets: TicketModel):
             response = session.post(CLIENT_URL, data=body)
             # TODO: some response processing
 
-
 async def run_tasks():
     task1 = asyncio.create_task(send_out_of_time_tickets())
     task2 = asyncio.create_task(change_ticket_statuses())
-    await asyncio.gather(task1, task2)
+    await task1
+    await task2
